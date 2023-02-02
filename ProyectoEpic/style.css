@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    display: flex;
+}
+
+.conteiner{
+    border: black solid 1px;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+input{
+    margin-bottom: 50px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#btnSumar{
+    background-color: red;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+    background-color: #FFF;
+    text-align: center;
+}
